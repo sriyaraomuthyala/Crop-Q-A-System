@@ -15,8 +15,8 @@ st.set_page_config(page_title="Rainfall & Crop QnA — Professional", layout="wi
 # Paths & dataset links
 # -----------------------
 BASE_DIR = os.getcwd()
-DATA_DIR = os.path.join(BASE_DIR, "data")
-INDEX_DIR = os.path.join(BASE_DIR, "qna_index")
+DATA_DIR = os.path.join(BASE_DIR, "Data")
+INDEX_DIR = os.path.join(BASE_DIR, "Qna_index")
 os.makedirs(INDEX_DIR, exist_ok=True)
 
 FILES = {
@@ -827,3 +827,4 @@ elif operation == "Policy advisor: top 3 arguments":
 
 st.markdown("---")
 st.caption("Design: left panel controls; right panel shows results first, then tables/charts, then sources.")
+
